@@ -1,4 +1,8 @@
-a=input()
-b=input()
-c=a+b
-print(c)
+try:
+    print "a"
+except:
+    print "b"
+else:
+    print "c"
+finally:
+    print "d"
